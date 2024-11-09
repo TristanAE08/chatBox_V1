@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bs Gemini Bot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <h1 class="title" >My Bs Gemini Bot</h1>
+        <textarea name="question" id="question" class="textarea"></textarea>
+
+        <button class="button is-primary is-fullwidth" onclick="makeFirstRequest()">Submit</button>
+
+        <div class="my-3"></div>
+        <div class="subtitle">Gemini Says:</div>
+        <div id="response"></div>
+    </section>
+    
+    <script src="scropt.js"></script>
+</body>
+</html>
